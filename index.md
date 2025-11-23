@@ -1,7 +1,3 @@
----
-layout: home
-title: Home
----
 
 # DR. TIJO D - Mechanical Engineering
 
@@ -144,4 +140,4 @@ All projects were BTech Mechanical Engineering Fourth Year Projects conducted at
 All projects were MTech Second Year Projects conducted at Saintgits College of Engineering.
 
 1.  **Deposition of hard and wear resistant TiC coating on Al alloy by TIG Cladding process** (2021)
-2.  **Design and optimization of wire EDM process parameters on machining of Alumin
+2.  **Design and optimization of wire EDM process parameters on machining of Aluminium alloy** (2022) 
