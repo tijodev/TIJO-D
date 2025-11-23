@@ -1,0 +1,62 @@
+# -----------------------------------------------------------------------------
+# Jekyll Configuration File for DR. TIJO D's Academic Website
+# -----------------------------------------------------------------------------
+
+# Site Settings
+title: Dr. Tijo D - Mechanical Engineering
+[cite_start]email: tijodev@gmail.com [cite: 8]
+description: >-
+  The official academic website for Dr. Tijo D, specializing in Mechanical
+  Engineering (Production Engineering) with expertise in Non-Conventional
+  [cite_start]Coating Processes. [cite: 1, 2, 3]
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
+
+# Author Details
+author:
+  [cite_start]name: Dr. Tijo D [cite: 1]
+  [cite_start]tagline: Assistant Professor (Senior) [cite: 98]
+  
+# Theme Settings
+# Assuming you might use a popular theme like minima or a more academic one like jekyll-theme-cayman.
+# Replace 'minima' with your chosen theme name if different.
+theme: minima
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+# Permalinks
+permalink: pretty
+
+# Exclusions
+# Files and folders that are excluded from the build process.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# -----------------------------------------------------------------------------
+# Navigation Links (These will appear in the header/sidebar depending on the theme)
+# The links correspond to the Markdown files we have created.
+# -----------------------------------------------------------------------------
+
+header_pages:
+  - index.md
+  - Education.md
+  - Publications.md
+  - Advising.md
+  
+# Alternatively, for themes that use a 'navigation' block:
+navigation:
+  - title: Home
+    url: /
+  - title: Education & Thesis
+    url: /Education.html
+  - title: Publications
+    url: /Publications.html
+  - title: Projects Guided
+    url: /Advising.html
